@@ -1,0 +1,63 @@
+.header {
+  /* background-color: wheat; */
+  position: relative;
+  width: 60%;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  top: 150px;
+  left: 20%;
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+  color: #fa7544;
+}
+.gray {
+  color: gray;
+  font-weight: 100;
+}
+.header > .logo {
+  /* background-color: burlywood; */
+  position: relative;
+  left: 600px;
+  bottom: 80px;
+  font-size: 24px;
+}
+.fa {
+  color: white;
+  background-color: orangered;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding-left: 4px;
+}
+.flex-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+.flex {
+  /* background-color: wheat; */
+  margin: 30px;
+  width: 230px;
+  height: 350px;
+  border: 1px solid rgb(223, 106, 86);
+  position: relative;
+  top: 70px;
+  left: 200px;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(185, 157, 157);
+  font-size: 22px;
+}
+.flex-container > .flex > .box-head {
+  font-size: 25px;
+  color: #fa7544;
+}
+hr {
+  margin-left: 25px;
+}
+.flex-container > .flex > .orange {
+  color: #ff4500;
+}

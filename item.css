@@ -1,0 +1,46 @@
+.box1 {
+  border: 2px solid black;
+  height: 800px;
+}
+.wall {
+  z-index: -1;
+  filter: blur(4px);
+}
+.angle {
+  width: 350px;
+  height: 160px;
+  border: 1px solid rgb(223, 106, 86);
+  background-color: white;
+  position: relative;
+  top: -320px;
+  left: 35%;
+  color: orangered;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(185, 157, 157);
+  font-size: 22px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.box > .angle > .box-head {
+  font-size: 28px;
+  color: #f34a0c;
+}
+input {
+  width: 250px;
+  height: 22px;
+  color: #f34a0c;
+  border: 1px solid salmon;
+  border-radius: 5px;
+  /* box-shadow: 5px 5px 15px rgb(185, 157, 157); */
+}
+button {
+  background-color: #f34a0c;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  border-color: orangered;
+  cursor: pointer;
+}
